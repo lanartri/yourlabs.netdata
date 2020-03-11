@@ -45,3 +45,4 @@ netdata_packages:
 - uuid-dev
 - zlib1g-dev
 - sysfsutils
+- libuv1-dev
