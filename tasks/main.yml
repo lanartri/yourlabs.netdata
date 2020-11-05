@@ -42,9 +42,6 @@
     owner: netdata
     mode: '0644'
 
-- name: Test alarms
-  shell: sudo -u netdata NETDATA_ALARM_NOTIFY_DEBUG=1 /usr/libexec/netdata/plugins.d/alarm-notify.sh test
-
 - name: Make netdata-proxy home
   file: name=/home/netdata-proxy state=directory
 
